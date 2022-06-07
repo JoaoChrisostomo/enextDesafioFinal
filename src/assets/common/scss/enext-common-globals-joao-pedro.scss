@@ -38,9 +38,16 @@
 /**
  * Header
  */
-@import './layouts/header/headerStylesJoaoPedro.scss';
+@import './layouts/stylesGeral/headerStylesJoaoPedro.scss';
+
 
 /**
  * Responsive Header
  */
-@import './layouts/header/responsiveHeaderJoaoPedro.scss';
+ @import './layouts/stylesGeral/footerStylesJoaoPedro.scss';
+
+
+/**
+ * Responsive Header
+ */
+@import './layouts/stylesGeral/responsiveGeralJoaoPedro.scss';

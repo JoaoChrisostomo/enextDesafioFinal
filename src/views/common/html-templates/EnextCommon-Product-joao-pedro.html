@@ -6,8 +6,7 @@
   <vtex:metaTags/>
   <vtex:template id="EnextCommon-Styles"/>
   <vtex:template id="EnextCommon-ThemeScripts"/>
-  <link rel="stylesheet" type="text/css" href="/arquivos/general.css" />
-  <link rel="stylesheet" type="text/css" href="/arquivos/product.css" />
+  <link rel="stylesheet" type="text/css" href="/arquivos/enext-common-globals-joao-pedro.css" />
   <vtex:template id="pngIeFix" />
 </head>
 
@@ -15,24 +14,24 @@
 
 <div id="all">
 	<!--  SubTemplate: header -->
-	<vtex:template id="headerJoaoPedro" />
+	<vtex:template id="enextHeaderJoaoPedro" />
 	<!-- /SubTemplate: header -->
-	
+
 	<div id="sideBar">
 		<!--  Controle: imagem do produto -->
 		<vtex.cmc:ProductImage zoom="off" />
 		<!-- /Controle: imagem do produto -->
 	</div>
-	
+
 	<div id="content">
 		<!--  Controle: nome do produto -->
 		<h1><vtex.cmc:productName /></h1>
 		<!-- /Controle: nome do produto -->
-	
+
 		<!--  Controle: breve descricao do produto -->
 		<vtex.cmc:productDescriptionShort />
 		<!-- /Controle: breve descricao do produto -->
-		
+
 		<!--  Controle: flags -->
 		<div id="flags"><vtex.cmc:hightLight /></div>
 		<!-- /Controle: flags -->
@@ -68,9 +67,11 @@
 		<!-- /Controle: avaliacao do cliente -->
 	</div>
 
+	<vtex:template id="enextFooterJoaoPedro" />
+
 </div>
 
-<script type="text/javascript" src="/arquivos/enext-common-globals.js"></script>
+<script type="text/javascript" src="/arquivos/enext-common-globals-joao-pedro.js"></script>
 
 </body>
 </html>

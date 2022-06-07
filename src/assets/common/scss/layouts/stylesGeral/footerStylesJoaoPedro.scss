@@ -1,0 +1,96 @@
+/* ESTILIZANDO O FOOTER */
+
+.footer{
+    padding-top: 15rem;
+    background: #fff;
+}
+
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+}
+
+.footer .box-container .box h3{
+    font-size: 2.5rem;
+    color: #333;
+    padding: 1rem 0;
+    text-transform: uppercase;
+}
+
+.footer .box-container .box h3 i{
+    color: #caaa93;
+}
+
+.footer .box-container .box .link{
+    display: block;
+    font-size: 1.5rem;
+    color: #333;
+    padding: 1rem 0;
+}
+
+.footer .box-container .box .link i{
+    color: #caaa93;
+    padding-right: .5rem;
+}
+
+.footer .box-container .box .link:hover i{
+    padding-right: 2rem;
+    color: #333;
+}
+
+.footer .box-container .box .link:hover{
+    color: #caaa93;
+}
+
+.footer .box-container .box p{
+    line-height: 1.8;
+    font-size: 1.5rem;
+    color: #333;
+    padding: 1.5rem;
+}
+
+.footer .box-container .box .share a{
+    height: 4rem;
+    width: 4rem;
+    line-height: 4rem;
+    border-radius: .5rem;
+    font-size: 2rem;
+    color: #333;
+    margin-left: .2rem;
+    background: #eee;
+    text-align: center;
+}
+
+.footer .box-container .box .share a:hover{
+    background: #caaa93;
+    color: #fff;
+}
+
+.footer .box-container .box .email{
+    width: 80%;
+    margin: .7rem 0;
+    padding: 1rem;
+    border-radius: .5rem;
+    background: #eee;
+    font-size: 1.6rem;
+    color: #333;
+    text-transform: none;
+}
+
+.footer .box-container .box .payment-img{
+    padding-top: 3rem;
+}
+
+.footer .credit{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 2rem;
+    padding: 1rem 0;
+    padding-top: 2.5rem;
+    color: #333;
+}
+
+.footer .credit span{
+    color: #333;
+}

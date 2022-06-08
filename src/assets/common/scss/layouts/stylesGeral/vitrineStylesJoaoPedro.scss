@@ -1,0 +1,61 @@
+/* ESTILIZANDO A VITRINE */
+.vitrine .vitrine-slider{
+    padding: 4rem;
+}
+
+.vitrine .vitrine-slider:first-child {
+    margin-bottom: 2rem;
+}
+
+.vitrine .vitrine-slider .box{
+    background: #ffffff;
+    border-radius: .5rem;
+    text-align: center;
+    padding: 3rem 2rem;
+    outline-offset: -1rem;
+    outline: 1px solid #eee;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.2);
+    transition: .2s linear;
+}
+
+.vitrine .vitrine-slider .box:hover{
+    outline-offset: 0rem;
+    outline: 2px solid #010101;
+}
+
+.vitrine .vitrine-slider .box img{
+    height: 20rem;
+    width: 33rem;
+}
+
+.vitrine .vitrine-slider .box h3{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #333;
+    padding-bottom: 1rem;
+}
+
+.vitrine .vitrine-slider .box .price{
+    font-size: 2.0rem;
+    color: #333;
+    padding: .5rem 0;
+}
+
+.vitrine .vitrine-slider .box .stars i{
+    font-size: 1.7rem;
+    color: #caaa93;
+}
+
+.btn{
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 1rem 2rem;
+    border: 1px solid #f6f4f2;
+    border-radius: 5px;
+    margin-top: 3rem;
+    transition: all 0.9s ease;
+    cursor: pointer;
+    background: rgb(12, 12, 12);
+    color: rgb(243, 240, 240);
+    text-transform: uppercase;
+}

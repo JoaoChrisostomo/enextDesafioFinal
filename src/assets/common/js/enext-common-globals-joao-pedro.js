@@ -43,3 +43,40 @@ window.onscroll = () => {
     loginForm.classList.remove('active');
     navbar.classList.remove('active');
 }
+
+var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    keyboard: {
+      enabled: true,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+
+var swiperVitrine = new Swiper(".vitrine-slider", {
+    loop: true,
+    spaceBetween: 20,
+    autoplay: {
+      delay: 7500,
+      disableOnInteraction: false,
+    },
+    centeredSlides: true,
+    breakpoints: {
+      0: {
+        slidesPerView: 1,
+      },
+      768: {
+        slidesPerView: 2,
+      },
+      1020: {
+        slidesPerView: 3,
+      },
+      }
+});
